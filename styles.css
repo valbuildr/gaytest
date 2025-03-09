@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto.ttf");
+}
+
+@font-face {
+  font-family: "Space Mono";
+  src: url("/fonts/spacemono.ttf");
+}
+
+:root {
+  background-color: rgb(15, 15, 15);
+  color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Space Mono", "Courier New", Courier, monospace;
+}
+
+p {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+a {
+  color: rgb(104, 104, 255);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  border-color: rgb(211, 211, 211);
+}
